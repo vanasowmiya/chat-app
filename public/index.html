@@ -1,0 +1,22 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Chat App</title>
+</head>
+<body>
+
+  <h2>Simple Chat</h2>
+
+  <div id="messages"></div>
+
+  <input id="msg" type="text" placeholder="Type message" />
+  <button onclick="sendMessage()">Send</button>
+
+  <!-- socket.io -->
+  <script src="/socket.io/socket.io.js"></script>
+
+  <!-- your JS file -->
+  <script src="script.js"></script>
+
+</body>
+</html>
